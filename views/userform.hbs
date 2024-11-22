@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Hi-Tech-DATABASE</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="margin: 0; height: 100vh;">
+    <table class="admintable" width="100%" height="100%" style="border: 1px solid black;">
+        <tr>
+            <td style="border: 1px solid black; height: 8%; width: 100%; background-color: darkred;">
+                <table style="border: 1px solid black;">
+                    <tr>
+                        <td style="width: 10%;"><img src="/topbarlogo.png" alt="Top Bar Logo" style="width: 100%; height: 100%;" /></td>
+                        <td style="width: 20%;"><b style="font-family: sans-serif; color: white;">Menu Adminisrateur</b></td>
+                        <td style="border: 1px solid black; width: 30%;">
+                            <input class="search" type="text" name="search" max="100" placeholder="Rechercher">
+                        </td>
+                        <td style="border: 1px solid black; width: 10%;">
+                            <input class="okbtn" type="image" src="/search.png" alt="Logo" />
+                        </td>
+                        <td style="width: 8%;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                        <td style="width: 18%;">
+                            <div class="menu-container">
+                                <button class="menu-button"><b style="color: white;">bienvenue {{user.nom}} {{user.prenom}}</b></button>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="disconnect">Se d&eacute;connecter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 8%;">
+                            <a href="/con/adminretour" class="a">Retour</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: auto; text-align: center; width: 100%;">
+                <div class="containertransparent">
+                    <div class="scrollable-content">
+                        <br><br><br><br><br><br><br><br>
+                        <table style="width: 100%; height: 40%; vertical-align: center; text-align: center;" border=1px solid black>
+                            <tr>
+                                <td style="width: 5%;"></td>
+                                <th style="width: 90%;">
+                                    <table class="produitstable">
+                                        <thead>
+                                            <tr>
+                                                <th>User ID</th>
+                                                <th>Nom</th>
+                                                <th>Prenom</th>
+                                                <th>email</th>
+                                                <th>Numero du telephone</th>
+                                                <th>Password</th>
+                                                <th>Password Confirm</th>
+                                                <th><b style="color: green;">{{status}}</b></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <form method="POST" action="/con/updateuser">
+                                                <td>{{user.id}}<input type="hidden" id="id" name="id" value="{{user.id}}"></td>
+                                                <td><input class="input" type="text" id="nom" name="nom" placeholder="{{user.nom}}" value="{{user.nom}}" required></td>
+                                                <td><input class="input" type="text" id="prenom" name="prenom" placeholder="{{user.prenom}}" value="{{user.prenom}}" required></td>
+                                                <td><input type="hidden" id="email" name="email" value="{{user.email}}">{{user.email}}</td>
+                                                <td><input class="input" type="text" id="tel" name="tel" placeholder="{{user.tel}}" value="{{user.tel}}" required></td>
+                                                <td><input class="input" type="text" id="password" name="password" required></td>
+                                                <td><input class="input" type="text" id="passwordConfirm" name="passwordConfirm" required></td>
+                                                <td><input class="bluebtn" type="submit" value="Changer"></td>
+                                                </form>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+            </td>
+            <td style="width: 5%;"></td>
+        </tr>
+    </table>
+    </div>
+    </div>
+    </td>
+    </tr>
+    </table>
+</body>
+</html>

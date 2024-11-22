@@ -1,0 +1,10 @@
+setup : 
+mkdir my-node-project
+cd my-node-project
+npm init -y
+touch index.js
+npm install express
+
+start project : 
+node index.js
+php -S localhost:8000

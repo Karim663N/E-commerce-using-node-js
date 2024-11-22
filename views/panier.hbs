@@ -1,0 +1,267 @@
+<html>
+<head>
+    <title>Hi-Tech Nabeul</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body style="margin: 0; height: 100vh;">
+    <table width="100%" height="100%">
+        <tr>
+            <td style="height: 8%; width: 100%; background-color: darkred;">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 10%;"><a href="/con/home"><img src="/topbarlogo.png" alt="Top Bar Logo" style="width: 100%; height: 100%;" /></a></td>
+                        <td style="width: 20%;"></td>
+                        <form method="get" action="/con/search">
+                        <td style="width: 30%;">
+                            <input class="search" type="text" name="search" max="100" placeholder="Rechercher">
+                        </td>
+                        <td style="width: 10%;">
+                            <input class="okbtn" type="image" src="/search.png" alt="Logo" />
+                        </td>
+                        </form>
+                        {{#if user.email}}
+
+                        <td style="width: 8%;"><a href="/con/panier"><img src="/topbarpanier.png" alt="Top Bar Panier" style="width: 30%; height: 30%;" /></a> <i style="color: white;">{{totalPrixt}} DT</i></td>
+                        <td style="width: 9%;">
+                            <div class="smenu-container">
+                                <button class="smenu-button"><b style="color: white;">bienvenue {{user.nom}} {{user.prenom}}</b></button>
+                                <div class="smenu">
+                                    <ul>
+                                        <a href="disconnect">
+                                        <li><table><tr><td><img src="/disconnect.png" /></td><td>Se d&eacute;connecter</td></tr></table></li></a>
+                                        <a href="/con/gererprofilc?id={{user.id}}">
+                                        <li><table><tr><td><img src="/edituser.png" /></td><td>G&eacute;rer mon profil</td></tr></table></li></a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 7%;">
+                            <a href="disconnect"></a>
+                        </td>
+                        {{else}}
+                        <td style="width: 25%;"></td>
+                        <td style="width: 5%;">
+                            <a href="connexion"><img src="/person.png" /></a>
+                        </td>
+                        {{/if}}
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: top; text-align: left;">
+                <div class="container">
+                    <div class="scrollable-content">
+                        <table style="width: 100%; text-align: center;">
+                            <tr>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Informatiques</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/laptop">
+                                                <li><table><tr><td><img src="/laptop.jpg" /></td><td>PC portable</td></tr></table></li></a>
+                                                <a href="/con/desktop">
+                                                <li><table><tr><td><img src="/desktop.jpg" /></td><td>PC de bureau</td></tr></table></li></a>
+                                                <a href="/con/ecran">
+                                                <li><table><tr><td><img src="/ecran.png" /></td><td>Ecran</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Smartphones</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/android">
+                                                <li><table><tr><td><img src="/android.jpg" /></td><td>Android</td></tr></table></li></a>
+                                                <a href="/con/ios">
+                                                <li><table><tr><td><img src="/ios.jpg" /></td><td>Iphone</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Smartwatch</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/bracelet">
+                                                <li><table><tr><td><img src="/bracelet.png" /></td><td>Bracelet</td></tr></table></li></a>
+                                                <a href="/con/montre">
+                                                <li><table><tr><td><img src="/montre.jpg" /></td><td>Smartwatch</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">TV</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/tv">
+                                                <li><table><tr><td><img src="/tv.jpg" /></td><td>T&eacute;l&eacute;viseurs</td></tr></table></li></a>
+                                                <a href="/con/accessoirespourtv">
+                                                <li><table><tr><td><img src="/accessoirespourtv.jpg" /></td><td>Accessoires pour tv</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Sons</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/ecouteur">
+                                                <li><table><tr><td><img src="/ecouteur.jpg" /></td><td>Ecouteurs</td></tr></table></li></a>
+                                                <a href="/con/hautparleur">
+                                                <li><table><tr><td><img src="/hautparleur.jpg" /></td><td>Haut parleur</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table style="width: 100%; height: 90%; vertical-align: center; text-align: center;">
+                            <tr>
+                                <td style="width: 5%;"></td>
+                                <td style="width: 70%;">
+                                    <table style="width: 100%; height: 40%; vertical-align: center; text-align: center;">
+                                        <tr>
+                                            <td style="width:3%"></td>
+                                            <td style="width: 70%;">
+                                                {{#if cartProducts}}
+                                                <!-- Modal -->
+                                                <form method="get" action="/con/ajoutercommande">
+                                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">Type de paiement</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+
+                                                                    Paiement par :
+                                                                    <select name="typedepaiement" id="typedepaiement">
+                                                                        <option value="espece">Esp&egrave;ce</option>
+                                                                        <option value="cheque">Ch&egrave;que</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <input type="submit" class="btn btn-primary" value="Commander" />
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Quitter</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <button type="button" class="btn btn-primary" id="openModalBtn">
+                                                    Commander
+                                                </button>
+                                                <a href="/con/commande"><u style="color: black;">Voir mes commandes</u></a>
+                                                {{else}}
+                                                <h1>{{message}}</h1>
+                                                <a href="/con/commande"><u style="color: black;">Voir mes commandes</p></a>
+                                                {{/if}}
+
+
+
+</div>
+
+
+
+            </td>
+            <td style="width:10%"></td>
+        </tr>
+        <tr>
+            <td style="width:3%"></td>
+            <td style="width: 70%;">
+                {{#each cartProducts}}
+                <br>
+                <table class="produitslist">
+                    <tr>
+                        <td style="width: 20%;">
+                            <a href="/con/produitinfo?id={{this.id}}"><img src="/produits/{{this.reference}}.jpg" /></a>
+                        </td>
+                        <td style="width: 40%; font-size: medium; font-family: sans-serif;">
+                            <h2>{{this.nommarque}} {{this.model}}</h2>
+                            <p>{{this.description}}</p>
+                        </td>
+                        <td style="width: 20%; border-left: 1px solid #ddd;">
+                            <p style="font-size: 25px;">Prix unitaire: <br />{{this.prix}} DT</p>
+                        </td>
+                        <td style="width: 20%; text-align: center;">
+                            <form method="get" action="/con/panierquantite">
+                                <table style="text-align: center;">
+                                    <tr>
+                                        <td>Quantite : </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="hidden" name="id" id="id" value="{{this.id}}" />
+                                            <input type="number" name="quantite" id="quantite" value="{{this.quantitep}}" placeholder="1-{{this.quantite}}" /><br />
+                                        </td>
+                                        <td>
+                                            <input class="greenbtn" type="submit" value="OK" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                            <form method="get" action="/con/paniersupprimer">
+                                <input type="hidden" name="idp" id="idp" value="{{this.id}}" />
+                                <input class="redbtn" type="submit" value="Annuler" />
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+                {{/each}}
+            </td>
+
+
+            <td style="width:10%"></td>
+        </tr>
+    </table>
+
+    </td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    </td>
+    </tr>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('openModalBtn').addEventListener('click', function () {
+            var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+            myModal.show();
+        });
+    </script>
+</body>
+</html>
+
+<script>
+    function validateForm() {
+        // Check if any checkboxes are selected
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        let atLeastOneChecked = false;
+        checkboxes.forEach(checkbox => {
+            if (checkbox.checked) {
+                atLeastOneChecked = true;
+            }
+        });
+        // If no checkboxes are selected, prevent form submission
+        if (!atLeastOneChecked) {
+            alert("Please select at least one marque.");
+            return false;
+        }
+        return true;
+    }
+</script>

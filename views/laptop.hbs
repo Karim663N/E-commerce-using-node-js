@@ -1,0 +1,291 @@
+<html>
+<head>
+    <title>Hi-Tech Nabeul</title>
+    <link rel="stylesheet" href="/styles.css">
+
+</head>
+
+<body style="margin: 0; height: 100vh;">
+    <table width="100%" height="100%">
+        <tr>
+            <td style="height: 8%; width: 100%; background-color: darkred;">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 10%;"><a href="/con/home"><img src="/topbarlogo.png" alt="Top Bar Logo" style="width: 100%; height: 100%;" /></a></td>
+                        <td style="width: 20%;"></td>
+                        <form method="get" action="/con/search">
+                        <td style="width: 30%;">
+                            <input class="search" type="text" name="search" max="100" placeholder="Rechercher">
+                        </td>
+                        <td style="width: 10%;">
+                            <input class="okbtn" type="image" src="/search.png" alt="Logo" />
+                        </td>
+                        </form>
+                        {{#if user.email}}
+
+                        <td style="width: 8%;"><a href="/con/panier"><img src="/topbarpanier.png" alt="Top Bar Panier" style="width: 30%; height: 30%;" /></a> <i style="color: white;">{{totalPrixt}} DT</i></td>
+                        <td style="width: 9%;">
+                            <div class="smenu-container">
+                                <button class="smenu-button"><b style="color: white;">bienvenue {{user.nom}} {{user.prenom}}</b></button>
+                                <div class="smenu">
+                                    <ul>
+                                        <a href="disconnect">
+                                        <li><table><tr><td><img src="/disconnect.png" /></td><td>Se d&eacute;connecter</td></tr></table></li></a>
+                                        <a href="/con/gererprofilc?id={{user.id}}">
+                                        <li><table><tr><td><img src="/edituser.png" /></td><td>G&eacute;rer mon profil</td></tr></table></li></a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 7%;">
+                            <a href="disconnect"></a>
+                        </td>
+                        {{else}}
+                        <td style="width: 25%;"></td>
+                        <td style="width: 5%;">
+                            <a href="connexion"><img src="/person.png" /></a>
+                        </td>
+                        {{/if}}
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: top; text-align: left;">
+                <div class="container">
+                    <div class="scrollable-content">
+                        <table style="width: 100%; text-align: center;">
+                            <tr>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="selected-button">Informatiques (laptop)</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/laptop">
+                                                <li><table><tr><td><img src="/laptop.jpg" /></td><td>PC portable</td></tr></table></li></a>
+                                                <a href="/con/desktop">
+                                                <li><table><tr><td><img src="/desktop.jpg" /></td><td>PC de bureau</td></tr></table></li></a>
+                                                <a href="/con/ecran">
+                                                <li><table><tr><td><img src="/ecran.png" /></td><td>Ecran</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Smartphones</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/android">
+                                                <li><table><tr><td><img src="/android.jpg" /></td><td>Android</td></tr></table></li></a>
+                                                <a href="/con/ios">
+                                                <li><table><tr><td><img src="/ios.jpg" /></td><td>Iphone</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Smartwatch</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/bracelet">
+                                                <li><table><tr><td><img src="/bracelet.png" /></td><td>Bracelet</td></tr></table></li></a>
+                                                <a href="/con/montre">
+                                                <li><table><tr><td><img src="/montre.jpg" /></td><td>Smartwatch</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">TV</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/tv">
+                                                <li><table><tr><td><img src="/tv.jpg" /></td><td>T&eacute;l&eacute;viseurs</td></tr></table></li></a>
+                                                <a href="/con/accessoirespourtv">
+                                                <li><table><tr><td><img src="/accessoirespourtv.jpg" /></td><td>Accessoires pour tv</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Sons</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/ecouteur">
+                                                <li><table><tr><td><img src="/ecouteur.jpg" /></td><td>Ecouteurs</td></tr></table></li></a>
+                                                <a href="/con/hautparleur">
+                                                <li><table><tr><td><img src="/hautparleur.jpg" /></td><td>Haut parleur</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table style="width: 100%; height: 90%; vertical-align: center; text-align: center;">
+                            <tr>
+                                <td style="width: 5%;"></td>
+                                <td class="produitsfilter">
+                                    <h2 style="font-family: sans-serif; color: black;"><u>Filtrer</u></h2><br><br><br>
+                                    <table>
+                                        <form method="POST" action="/con/filterproduct" onsubmit="return validateForm()">
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: green;">Marques :</p><input type="hidden" name="categorie" id="categorie" value="android"</td></tr>
+                                        {{#if produits}}
+                                        {{#each uniqueMarques}}
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">{{this}}<input type="checkbox" id="{{this}}" name="marque[{{this}}]"></p></td></tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        <tr><td style="width:20%;"></td><td><br><br><p style="font-family: sans-serif; color: green;">Prix (en DT) :</p></td></tr>
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">min :</p><input type="number" id="minprice" name="minprice" placeholder="0DT"></td></tr>
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">max :</p><input type="number" id="maxprice" name="maxprice" placeholder="0DT"></td></tr>
+                                        <tr><td style="width:20%;"></td><td><br><br><p style="font-family: sans-serif; color: green;">Taille de l'ecran :</p></td></tr>
+                                        {{#if produits}}
+                                        {{#each tailleEcranDetails}}
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">{{this}}<input type="checkbox" id="{{this}}" name="tailleEcran[{{this}}]"></p></td></tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        <tr><td style="width:20%;"></td><td><br><br><p style="font-family: sans-serif; color: green;">Memoire RAM :</p></td></tr>
+                                        {{#if produits}}
+                                        {{#each ramDetails}}
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">{{this}}<input type="checkbox" id="{{this}}" name="ram[{{this}}]"></p></td></tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        <tr><td style="width:20%;"></td><td><br><br><p style="font-family: sans-serif; color: green;">Stockage :</p></td></tr>
+                                        {{#if produits}}
+                                        {{#each stockageDetails}}
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">{{this}}<input type="checkbox" id="{{this}}" name="stockage[{{this}}]"></p></td></tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        <tr><td style="width:20%;"></td><td><br><br><p style="font-family: sans-serif; color: green;">Resolution :</p></td></tr>
+                                        {{#if produits}}
+                                        {{#each ecranDetails}}
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">{{this}}<input type="checkbox" id="{{this}}" name="ecran[{{this}}]"></p></td></tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        <tr><td style="width:20%;"></td><td><br><br><p style="font-family: sans-serif; color: green;">Processeur :</p></td></tr>
+                                        {{#if produits}}
+                                        {{#each cpuDetails}}
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">{{this}}<input type="checkbox" id="{{this}}" name="cpu[{{this}}]"></p></td></tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        <tr><td style="width:20%;"></td><td><br><br><p style="font-family: sans-serif; color: green;">Carte graphique :</p></td></tr>
+                                        {{#if produits}}
+                                        {{#each gpuDetails}}
+                                        <tr><td style="width:20%;"></td><td><p style="font-family: sans-serif; color: black;">{{this}}<input type="checkbox" id="{{this}}" name="gpu[{{this}}]"></p></td></tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        <tr><td style="width:20%;"></td><td><br><br><input class="greenbtn" type="submit" name="ok" value="Filtrer"></td></tr>
+                                        </form>
+                                    </table>
+                                </td>
+                                <td style="width: 5%;"></td>
+                                <td style="width: 70%; vertical-align: top;">
+                                    <table style="width: 100%; vertical-align: center; text-align: center;">
+                                        <tr>
+                                            <td style="width:3%"></td>
+                                            <td style="width: 70%;">
+                                                {{#each produits}}
+                                                <br>
+                                                <a href="/con/produitinfo?id={{this.id}}">
+                                                    <table class="produitslist">
+                                                        <tr>
+                                                            <td style="width: 20%;">
+                                                                <img src="/produits/{{this.reference}}.jpg" />
+                                                            </td>
+                                                            <td style="width: 80%;">
+                                                                <h2>{{this.nommarque}} {{this.model}}</h2>
+                                                                <p>{{this.description}}</p>
+                                                            </td>
+                                                            <td style="width: 20%;">
+                                                                <p style="font-size: 25px;">{{this.prix}} DT</p>
+                                                                {{#if this.promotion}}
+                                                                <p style="color: red; font-size: 25px;">Promotion -{{this.promotion}}%</p>
+                                                                {{else}}
+
+                                                                {{/if}}
+                                                                <script>
+                                                                    if ({{this.quantite}} === 0) {
+                                                                        document.write('<p style="color: red;">Non disponible</p>');
+                                                                    } else {
+                                                                        document.write('<p style="color: green;">Disponible</p>');
+                                                                    }
+                                                                </script>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </a>
+                                                {{/each}}
+                                            </td>
+
+
+                                            <td style="width:24%"></td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                        <table style="width: 100%; text-align: center;">
+                            <tr>
+                                <td style="width: 100%; background-color: darkred;">
+                                    <table style="width: 100%; text-align: center; color: white; font-family: sans-serif;">
+                                        <tr>
+                                            <td>
+                                                <br />
+                                                <h2>Information</h2> <br />
+                                                <a href="/con/apropos">A propos</a>
+                                                <br />
+                                            </td>
+                                            <td>
+                                                <br />
+                                                <h2>Information de contact</h2> <br />
+                                                <img src="/mail.png" />&nbsp;Email: hitechexpress@gmail.tn<br /><br />
+                                                <img src="/phone.png" />&nbsp;NumTel: (+216) 958421354
+                                                <br /><br />
+                                                <a href="https://www.google.com/maps/search/High-tach express, Nabeul TN 8000">Consulter nous</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><br /><br /></td>
+                                            <td><br /><br /></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<script>
+    function validateForm() {
+        // Check if any checkboxes are selected
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        let atLeastOneChecked = false;
+        checkboxes.forEach(checkbox => {
+            if (checkbox.checked) {
+                atLeastOneChecked = true;
+            }
+        });
+
+        // Check if either minprice or maxprice is filled
+        const minPrice = document.getElementById('minprice').value;
+        const maxPrice = document.getElementById('maxprice').value;
+        const isPriceFilled = minPrice !== '' || maxPrice !== '';
+
+        // If neither checkboxes nor prices are selected, prevent form submission
+        if (!atLeastOneChecked && !isPriceFilled) {
+            alert("Aucun filtre selectionnee !");
+            return false;
+        }
+        return true;
+    }
+</script>

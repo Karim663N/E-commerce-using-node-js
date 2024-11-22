@@ -1,0 +1,118 @@
+{{#if useradmin}}
+<html>
+<head>
+    <title>Hi-Tech-DATABASE</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="margin: 0; height: 100vh;">
+    <table class="admintable" width="100%" height="100%" style="border: 1px solid black;">
+        <tr>
+            <td style="border: 1px solid black; height: 8%; width: 100%; background-color: black; text-align: center;">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 5%;"></td>
+                        <td style="width: 10%;"><p style="color: white; font-family: sans-serif;">Commandes</p></td>
+                        <td style="width: 85%;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: auto; text-align: center; width: 100%;">
+                <table style="width: 100%; height: 100%; vertical-align: center; text-align: center;" border=1px solid black>
+                    <tr>
+                        <td style="width: 15%;">
+                            <table style="background-color: dimgray; width: 100%; height: 100%; text-align: center; color: aliceblue; border: 1px black;">
+                                <tr>
+                                    <a href="database">
+                                    <td><a href="database">Dashboard</a></td></a>
+                                </tr>
+                                <tr>
+                                    <td><a href="admincategorie">Categorie</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="adminproducts">Produits</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="adminmembres">Membres</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: black;"><a href="admincommandes">Commandes</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="admindisconnect">D&eacute;connexion</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <div class="containertransparent">
+                                <div class="scrollable-content">
+                                    <br /><br />
+                                    <table style="width: 100%; height: 25%; border-collapse: separate; border-spacing: 15px; padding: 5px 5px; text-align: center;">
+                                        <tr>
+                                            <td>
+                                                <br /><br />
+                                                <table style="width:35%; padding: 10px; margin: 10px; border-collapse: collapse; border-radius: 10px; overflow: hidden; background-color: white;">
+                                                    <tr>
+                                                        <td>
+                                                            <form method="get" action="editcommande">
+                                                                <table>
+                                                                    <tr>
+                                                                        <td><h2>Numero du commande :</h2></td>
+                                                                        <td><h2>{{commande.id}}<input type="hidden" name="id" value="{{commande.id}}" /></h2></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h2>Nom du Client :</h2></td>
+                                                                        <td><input class="login" type="text" name="nom" placeholder="{{commande.nom}}" value="{{commande.nom}}" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h2>Prenom du Client :</h2></td>
+                                                                        <td><input class="login" type="text" name="prenom" placeholder="{{commande.prenom}}" value="{{commande.prenom}}" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h2>Contact :</h2></td>
+                                                                        <td><input class="login" type="number" name="contact" placeholder="{{commande.tel}}" value="{{commande.tel}}" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h2>DateTime :</h2></td>
+                                                                        <td><input class="login" type="text" name="date" placeholder="{{commande.date}}" value="{{commande.date}}" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h2>Prod.Qty :</h2></td>
+                                                                        <td><input class="login" type="number" name="quantite" placeholder="{{commande.quantite}}" value="{{commande.quantite}}" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h2>Prix Total:</h2></td>
+                                                                        <td><input class="login" type="number" name="total" placeholder="{{commande.total}}" value="{{commande.total}}" /></td>
+                                                                    </tr>
+                                                                </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <input class="bluebtn" type="submit" value="Changer" />
+                                                            </form>
+                                                            <br /><br />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+{{else}}
+<script>
+        // Redirect to another page
+        window.location.href = '/con/adminlogin';
+</script>
+{{/if}}

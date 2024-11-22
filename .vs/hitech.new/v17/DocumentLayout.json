@@ -1,0 +1,1221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1-Projets\\3-NodeJs\\hitech.new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\con.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\con.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\controllers\\con.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\con.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\admincommandes.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\admincommandes.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ios.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ios.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\restaurermotdepasse.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\restaurermotdepasse.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\controllers\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:controllers\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\pages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\pages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\tv.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\tv.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\android.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\android.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\motdepasseoublieeform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\motdepasseoublieeform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitformecran.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\editproduitformecran.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecouteur.hbs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ecouteur.hbs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\laptop.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\laptop.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\montre.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\montre.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\hautparleur.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\hautparleur.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecran.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ecran.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\desktop.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\desktop.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\bracelet.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\bracelet.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\accessoirespourtv.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\accessoirespourtv.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitforminfo.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\editproduitforminfo.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitformdesktop.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\editproduitformdesktop.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\editproduitform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\produitinfo.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\produitinfo.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\vide.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\vide.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\panier.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\panier.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\moncommande.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\moncommande.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\index.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\index.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\gotocommande.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\gotocommande.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\gererprofilcform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\gererprofilcform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\formulairedepaiement.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\formulairedepaiement.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\filterproduct.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\filterproduct.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\filterindexproduct.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\filterindexproduct.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editcategform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\editcategform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editcommandeform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\editcommandeform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\creercompte.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\creercompte.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\connexion.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\connexion.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\apropos.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\apropos.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproductinfo.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminaddproductinfo.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproduct.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminaddproduct.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproductecran.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminaddproductecran.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\userform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\userform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\edituserform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\edituserform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddcateg.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminaddcateg.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddmarque.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminaddmarque.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminlogin.hbs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminlogin.hbs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\database.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\database.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminproducts.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminproducts.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminmembres.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\adminmembres.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\admincategorie.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\admincategorie.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\pdfcommande.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\pdfcommande.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new - Copy (3)\\controllers\\con.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ajoutproduitform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ajoutproduitform.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\tvadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\tvadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\montreadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\montreadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\services\\emailService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:services\\emailService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\accessoirespourtvadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\accessoirespourtvadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\androidadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\androidadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecranadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ecranadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecouteuradmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\ecouteuradmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\laptopadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\laptopadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\braceletadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\braceletadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\desktopadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\desktopadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\hautparleuradmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\hautparleuradmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\iosadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\iosadmin.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\topbarlogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\topbarlogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\creercompte.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\creercompte.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\connexion.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\connexion.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1-Projets\\3-NodeJs\\hitech.new\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "auth.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\controllers\\auth.js",
+              "RelativeDocumentMoniker": "controllers\\auth.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\controllers\\auth.js",
+              "RelativeToolTip": "controllers\\auth.js",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAJIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-11T15:53:09.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tv.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\tv.hbs",
+              "RelativeDocumentMoniker": "views\\tv.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\tv.hbs",
+              "RelativeToolTip": "views\\tv.hbs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAAHcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T13:17:38.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "motdepasseoublieeform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\motdepasseoublieeform.hbs",
+              "RelativeDocumentMoniker": "views\\motdepasseoublieeform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\motdepasseoublieeform.hbs",
+              "RelativeToolTip": "views\\motdepasseoublieeform.hbs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAQwKQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-19T08:50:09.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "con.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\controllers\\con.js",
+              "RelativeDocumentMoniker": "controllers\\con.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\controllers\\con.js",
+              "RelativeToolTip": "controllers\\con.js",
+              "ViewState": "AQIAAHcOAAAAAAAAAAAiwJEOAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-25T13:12:55.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "pages.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\pages.js",
+              "RelativeDocumentMoniker": "routes\\pages.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\pages.js",
+              "RelativeToolTip": "routes\\pages.js",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-06T16:46:26.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "android.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\android.hbs",
+              "RelativeDocumentMoniker": "views\\android.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\android.hbs",
+              "RelativeToolTip": "views\\android.hbs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAANAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T13:08:41.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "con.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\con.js",
+              "RelativeDocumentMoniker": "routes\\con.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\con.js",
+              "RelativeToolTip": "routes\\con.js",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-08T11:40:21.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\index.js",
+              "RelativeDocumentMoniker": "index.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\index.js",
+              "RelativeToolTip": "index.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-06T14:12:53.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ios.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ios.hbs",
+              "RelativeDocumentMoniker": "views\\ios.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ios.hbs",
+              "RelativeToolTip": "views\\ios.hbs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAMYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T13:09:05.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "admincommandes.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\admincommandes.hbs",
+              "RelativeDocumentMoniker": "views\\admincommandes.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\admincommandes.hbs",
+              "RelativeToolTip": "views\\admincommandes.hbs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAQwCoAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-14T16:37:39.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "restaurermotdepasse.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\restaurermotdepasse.hbs",
+              "RelativeDocumentMoniker": "views\\restaurermotdepasse.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\restaurermotdepasse.hbs",
+              "RelativeToolTip": "views\\restaurermotdepasse.hbs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAswJMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-01T18:24:23.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "auth.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\auth.js",
+              "RelativeDocumentMoniker": "routes\\auth.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\routes\\auth.js",
+              "RelativeToolTip": "routes\\auth.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-06T17:12:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "montre.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\montre.hbs",
+              "RelativeDocumentMoniker": "views\\montre.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\montre.hbs",
+              "RelativeToolTip": "views\\montre.hbs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAQwK0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T13:17:24.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "laptop.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\laptop.hbs",
+              "RelativeDocumentMoniker": "views\\laptop.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\laptop.hbs",
+              "RelativeToolTip": "views\\laptop.hbs",
+              "ViewState": "AQIAALsAAAAAAAAAAAAAANAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T13:08:02.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "hautparleur.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\hautparleur.hbs",
+              "RelativeDocumentMoniker": "views\\hautparleur.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\hautparleur.hbs",
+              "RelativeToolTip": "views\\hautparleur.hbs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAAAK0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T13:16:47.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "desktop.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\desktop.hbs",
+              "RelativeDocumentMoniker": "views\\desktop.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\desktop.hbs",
+              "RelativeToolTip": "views\\desktop.hbs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAAAMQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T13:08:13.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ecran.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecran.hbs",
+              "RelativeDocumentMoniker": "views\\ecran.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecran.hbs",
+              "RelativeToolTip": "views\\ecran.hbs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAAALgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-20T14:54:33.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ecouteur.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecouteur.hbs",
+              "RelativeDocumentMoniker": "views\\ecouteur.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecouteur.hbs",
+              "RelativeToolTip": "views\\ecouteur.hbs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAAAK0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T13:16:22.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "editproduitformecran.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitformecran.hbs",
+              "RelativeDocumentMoniker": "views\\editproduitformecran.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitformecran.hbs",
+              "RelativeToolTip": "views\\editproduitformecran.hbs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-30T21:53:44.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "bracelet.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\bracelet.hbs",
+              "RelativeDocumentMoniker": "views\\bracelet.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\bracelet.hbs",
+              "RelativeToolTip": "views\\bracelet.hbs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAK0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T13:52:33.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "accessoirespourtv.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\accessoirespourtv.hbs",
+              "RelativeDocumentMoniker": "views\\accessoirespourtv.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\accessoirespourtv.hbs",
+              "RelativeToolTip": "views\\accessoirespourtv.hbs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T13:15:54.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "editproduitforminfo.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitforminfo.hbs",
+              "RelativeDocumentMoniker": "views\\editproduitforminfo.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitforminfo.hbs",
+              "RelativeToolTip": "views\\editproduitforminfo.hbs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAFUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-30T21:50:21.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "editproduitformdesktop.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitformdesktop.hbs",
+              "RelativeDocumentMoniker": "views\\editproduitformdesktop.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitformdesktop.hbs",
+              "RelativeToolTip": "views\\editproduitformdesktop.hbs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-12T15:28:33.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "editproduitform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitform.hbs",
+              "RelativeDocumentMoniker": "views\\editproduitform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editproduitform.hbs",
+              "RelativeToolTip": "views\\editproduitform.hbs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFQAAAC4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-08T13:09:04.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "produitinfo.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\produitinfo.hbs",
+              "RelativeDocumentMoniker": "views\\produitinfo.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\produitinfo.hbs",
+              "RelativeToolTip": "views\\produitinfo.hbs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAIwAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T15:30:09.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "vide.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\vide.hbs",
+              "RelativeDocumentMoniker": "views\\vide.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\vide.hbs",
+              "RelativeToolTip": "views\\vide.hbs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAQwHsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T14:02:54.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "panier.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\panier.hbs",
+              "RelativeDocumentMoniker": "views\\panier.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\panier.hbs",
+              "RelativeToolTip": "views\\panier.hbs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAQwHgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-18T13:06:39.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "moncommande.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\moncommande.hbs",
+              "RelativeDocumentMoniker": "views\\moncommande.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\moncommande.hbs",
+              "RelativeToolTip": "views\\moncommande.hbs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAlwHcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-24T14:42:14.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "index.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\index.hbs",
+              "RelativeDocumentMoniker": "views\\index.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\index.hbs",
+              "RelativeToolTip": "views\\index.hbs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAG0AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-06T15:48:15.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "gotocommande.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\gotocommande.hbs",
+              "RelativeDocumentMoniker": "views\\gotocommande.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\gotocommande.hbs",
+              "RelativeToolTip": "views\\gotocommande.hbs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T11:38:26.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "gererprofilcform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\gererprofilcform.hbs",
+              "RelativeDocumentMoniker": "views\\gererprofilcform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\gererprofilcform.hbs",
+              "RelativeToolTip": "views\\gererprofilcform.hbs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAQwHcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-11T13:11:08.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "formulairedepaiement.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\formulairedepaiement.hbs",
+              "RelativeDocumentMoniker": "views\\formulairedepaiement.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\formulairedepaiement.hbs",
+              "RelativeToolTip": "views\\formulairedepaiement.hbs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T17:38:09.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "filterproduct.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\filterproduct.hbs",
+              "RelativeDocumentMoniker": "views\\filterproduct.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\filterproduct.hbs",
+              "RelativeToolTip": "views\\filterproduct.hbs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAQwHcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T17:32:54.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "filterindexproduct.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\filterindexproduct.hbs",
+              "RelativeDocumentMoniker": "views\\filterindexproduct.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\filterindexproduct.hbs",
+              "RelativeToolTip": "views\\filterindexproduct.hbs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAHcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-24T21:26:17.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "editcategform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editcategform.hbs",
+              "RelativeDocumentMoniker": "views\\editcategform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editcategform.hbs",
+              "RelativeToolTip": "views\\editcategform.hbs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-13T09:55:46.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "editcommandeform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editcommandeform.hbs",
+              "RelativeDocumentMoniker": "views\\editcommandeform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\editcommandeform.hbs",
+              "RelativeToolTip": "views\\editcommandeform.hbs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-14T17:51:45.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "creercompte.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\creercompte.hbs",
+              "RelativeDocumentMoniker": "views\\creercompte.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\creercompte.hbs",
+              "RelativeToolTip": "views\\creercompte.hbs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAQwHUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-07T16:53:00.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "connexion.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\connexion.hbs",
+              "RelativeDocumentMoniker": "views\\connexion.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\connexion.hbs",
+              "RelativeToolTip": "views\\connexion.hbs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAQwHQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-06T16:20:22.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "apropos.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\apropos.hbs",
+              "RelativeDocumentMoniker": "views\\apropos.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\apropos.hbs",
+              "RelativeToolTip": "views\\apropos.hbs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T19:33:24.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "adminaddproductinfo.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproductinfo.hbs",
+              "RelativeDocumentMoniker": "views\\adminaddproductinfo.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproductinfo.hbs",
+              "RelativeToolTip": "views\\adminaddproductinfo.hbs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAABgAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-11T22:28:14.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "adminaddproduct.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproduct.hbs",
+              "RelativeDocumentMoniker": "views\\adminaddproduct.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproduct.hbs",
+              "RelativeToolTip": "views\\adminaddproduct.hbs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwBgAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-11T22:29:42.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "adminaddproductecran.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproductecran.hbs",
+              "RelativeDocumentMoniker": "views\\adminaddproductecran.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddproductecran.hbs",
+              "RelativeToolTip": "views\\adminaddproductecran.hbs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAACjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-11T22:29:05.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "userform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\userform.hbs",
+              "RelativeDocumentMoniker": "views\\userform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\userform.hbs",
+              "RelativeToolTip": "views\\userform.hbs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T14:42:16.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "edituserform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\edituserform.hbs",
+              "RelativeDocumentMoniker": "views\\edituserform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\edituserform.hbs",
+              "RelativeToolTip": "views\\edituserform.hbs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwA0AAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-14T15:21:24.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "adminaddcateg.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddcateg.hbs",
+              "RelativeDocumentMoniker": "views\\adminaddcateg.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddcateg.hbs",
+              "RelativeToolTip": "views\\adminaddcateg.hbs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-12T15:05:45.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "adminaddmarque.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddmarque.hbs",
+              "RelativeDocumentMoniker": "views\\adminaddmarque.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminaddmarque.hbs",
+              "RelativeToolTip": "views\\adminaddmarque.hbs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-12T14:36:26.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "adminlogin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminlogin.hbs",
+              "RelativeDocumentMoniker": "views\\adminlogin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminlogin.hbs",
+              "RelativeToolTip": "views\\adminlogin.hbs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-31T14:22:07.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\styles.css",
+              "RelativeDocumentMoniker": "public\\styles.css",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\styles.css",
+              "RelativeToolTip": "public\\styles.css",
+              "ViewState": "AQIAABYCAAAAAAAAAAAQwCQCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-18T13:23:05.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "database.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\database.hbs",
+              "RelativeDocumentMoniker": "views\\database.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\database.hbs",
+              "RelativeToolTip": "views\\database.hbs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-09T14:14:39.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "adminmembres.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminmembres.hbs",
+              "RelativeDocumentMoniker": "views\\adminmembres.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminmembres.hbs",
+              "RelativeToolTip": "views\\adminmembres.hbs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-14T14:29:03.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "admincategorie.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\admincategorie.hbs",
+              "RelativeDocumentMoniker": "views\\admincategorie.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\admincategorie.hbs",
+              "RelativeToolTip": "views\\admincategorie.hbs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-12T17:55:09.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "pdfcommande.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\pdfcommande.hbs",
+              "RelativeDocumentMoniker": "views\\pdfcommande.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\pdfcommande.hbs",
+              "RelativeToolTip": "views\\pdfcommande.hbs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCUAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-01T18:49:58.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "adminproducts.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminproducts.hbs",
+              "RelativeDocumentMoniker": "views\\adminproducts.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\adminproducts.hbs",
+              "RelativeToolTip": "views\\adminproducts.hbs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-13T11:36:13.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "con.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new - Copy (3)\\controllers\\con.js",
+              "RelativeDocumentMoniker": "..\\hitech.new - Copy (3)\\controllers\\con.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new - Copy (3)\\controllers\\con.js",
+              "RelativeToolTip": "..\\hitech.new - Copy (3)\\controllers\\con.js",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAiwBsBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-30T21:43:53.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "emailService.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\services\\emailService.js",
+              "RelativeDocumentMoniker": "services\\emailService.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\services\\emailService.js",
+              "RelativeToolTip": "services\\emailService.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-19T10:06:25.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ecranadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecranadmin.hbs",
+              "RelativeDocumentMoniker": "views\\ecranadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecranadmin.hbs",
+              "RelativeToolTip": "views\\ecranadmin.hbs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswGIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-28T15:17:19.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ajoutproduitform.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ajoutproduitform.hbs",
+              "RelativeDocumentMoniker": "views\\ajoutproduitform.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ajoutproduitform.hbs",
+              "RelativeToolTip": "views\\ajoutproduitform.hbs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-12T13:18:19.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "hautparleuradmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\hautparleuradmin.hbs",
+              "RelativeDocumentMoniker": "views\\hautparleuradmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\hautparleuradmin.hbs",
+              "RelativeToolTip": "views\\hautparleuradmin.hbs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwGIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:55:32.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ecouteuradmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecouteuradmin.hbs",
+              "RelativeDocumentMoniker": "views\\ecouteuradmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\ecouteuradmin.hbs",
+              "RelativeToolTip": "views\\ecouteuradmin.hbs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAswFcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:55:09.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "accessoirespourtvadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\accessoirespourtvadmin.hbs",
+              "RelativeDocumentMoniker": "views\\accessoirespourtvadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\accessoirespourtvadmin.hbs",
+              "RelativeToolTip": "views\\accessoirespourtvadmin.hbs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAiwFYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:54:45.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "tvadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\tvadmin.hbs",
+              "RelativeDocumentMoniker": "views\\tvadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\tvadmin.hbs",
+              "RelativeToolTip": "views\\tvadmin.hbs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAwGIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:53:55.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "montreadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\montreadmin.hbs",
+              "RelativeDocumentMoniker": "views\\montreadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\montreadmin.hbs",
+              "RelativeToolTip": "views\\montreadmin.hbs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwFgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:53:41.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "braceletadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\braceletadmin.hbs",
+              "RelativeDocumentMoniker": "views\\braceletadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\braceletadmin.hbs",
+              "RelativeToolTip": "views\\braceletadmin.hbs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwGIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:53:19.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "iosadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\iosadmin.hbs",
+              "RelativeDocumentMoniker": "views\\iosadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\iosadmin.hbs",
+              "RelativeToolTip": "views\\iosadmin.hbs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwGIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:53:01.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "androidadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\androidadmin.hbs",
+              "RelativeDocumentMoniker": "views\\androidadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\androidadmin.hbs",
+              "RelativeToolTip": "views\\androidadmin.hbs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAwE4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:52:48.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "desktopadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\desktopadmin.hbs",
+              "RelativeDocumentMoniker": "views\\desktopadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\desktopadmin.hbs",
+              "RelativeToolTip": "views\\desktopadmin.hbs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwGIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:52:27.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "laptopadmin.hbs",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\laptopadmin.hbs",
+              "RelativeDocumentMoniker": "views\\laptopadmin.hbs",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\views\\laptopadmin.hbs",
+              "RelativeToolTip": "views\\laptopadmin.hbs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAswFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-11T14:52:07.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "topbarlogo.png -  [English (United States)] - PNG [128x39, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\topbarlogo.png",
+              "RelativeDocumentMoniker": "public\\topbarlogo.png",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\topbarlogo.png -  [English (United States)] - PNG [128x39, 32 bit, PNG]",
+              "RelativeToolTip": "public\\topbarlogo.png -  [English (United States)] - PNG [128x39, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-03-10T10:38:57.02Z",
+              "EditorCaption": " -  [English (United States)] - PNG [128x39, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-06T15:39:42.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "creercompte.html",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\creercompte.html",
+              "RelativeDocumentMoniker": "public\\creercompte.html",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\creercompte.html",
+              "RelativeToolTip": "public\\creercompte.html",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAIwGIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-06T15:24:03.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "connexion.html",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\connexion.html",
+              "RelativeDocumentMoniker": "public\\connexion.html",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\public\\connexion.html",
+              "RelativeToolTip": "public\\connexion.html",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-06T15:22:36.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\styles.css",
+              "RelativeDocumentMoniker": "styles.css",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\styles.css",
+              "RelativeToolTip": "styles.css",
+              "ViewState": "AQIAAIQAAAAAAAAAAADwv6YAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-06T15:06:00.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "index.php",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\index.php",
+              "RelativeDocumentMoniker": "index.php",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\index.php",
+              "RelativeToolTip": "index.php",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAAAMYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-03-06T14:52:01.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "app.js",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\app.js",
+              "RelativeDocumentMoniker": "app.js",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\app.js",
+              "RelativeToolTip": "app.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-06T14:20:05.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\1-Projets\\3-NodeJs\\hitech.new\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "D:\\1-Projets\\3-NodeJs\\hitech.new\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-06T14:14:51.645Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+
+<html>
+<head>
+    <title>connexion</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body style="margin: 0; height: 100vh;">
+    <table width="100%" height="100%" style="border: 1px solid black;">
+        <tr>
+            <td style="height: 8%; width=100%; background-color: darkred;">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 10%;"><a href="/"><img src="/topbarlogo.png" alt="Top Bar Logo" style="width: 100%; height: 100%;" /></a></td>
+                        <td style="width: 20%;"></td>
+                        <form method="get" action="/con/search">
+                        <td style="width: 30%;">
+                            <input class="search" type="text" name="search" max="100" placeholder="Rechercher">
+                        </td>
+                        <td style="width: 10%;">
+                            <input class="okbtn" type="image" src="/search.png" alt="Logo" />
+                        </td>
+                        </form>
+                        {{#if user.email}}
+
+                        <td style="width: 8%;"><a href="/con/panier"><img src="/topbarpanier.png" alt="Top Bar Panier" style="width: 30%; height: 30%;" /></a></td>
+                        <td style="width: 10%;">
+                            <div class="menu-container">
+                                <button class="menu-button"><b style="color: white;">bienvenue {{user.nom}} {{user.prenom}}</b></button>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="disconnect">Se d&eacute;connecter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 7%;">
+                            <a href="disconnect"></a>
+                        </td>
+                        {{else}}
+                        <td style="width: 25%;"></td>
+                        <td style="width: 5%;">
+                            <a href="/con/connexion"><img src="/person.png" /></a>
+                        </td>
+                        {{/if}}
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: top; text-align: left;">
+                <div class="container">
+                    <div class="scrollable-content">
+                        <table style="width: 100%; text-align: center;">
+                            <tr>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Informatiques</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/laptop">
+                                                <li><table><tr><td><img src="/laptop.jpg" /></td><td>PC portable</td></tr></table></li></a>
+                                                <a href="/con/desktop">
+                                                <li><table><tr><td><img src="/desktop.jpg" /></td><td>PC de bureau</td></tr></table></li></a>
+                                                <a href="/con/ecran">
+                                                <li><table><tr><td><img src="/ecran.png" /></td><td>Ecran</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Smartphones</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/android">
+                                                <li><table><tr><td><img src="/android.jpg" /></td><td>Android</td></tr></table></li></a>
+                                                <a href="/con/ios">
+                                                <li><table><tr><td><img src="/ios.jpg" /></td><td>Iphone</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Smartwatch</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/bracelet">
+                                                <li><table><tr><td><img src="/bracelet.png" /></td><td>Bracelet</td></tr></table></li></a>
+                                                <a href="/con/montre">
+                                                <li><table><tr><td><img src="/montre.jpg" /></td><td>Smartwatch</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">TV</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/tv">
+                                                <li><table><tr><td><img src="/tv.jpg" /></td><td>Televiseur</td></tr></table></li></a>
+                                                <a href="/con/accessoirespourtv">
+                                                <li><table><tr><td><img src="/accessoirespourtv.jpg" /></td><td>Accessoires pour tv</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td style="width: 20%;">
+                                    <div class="menu-container">
+                                        <button class="menu-button">Sons</button>
+                                        <div class="menu">
+                                            <ul>
+                                                <a href="/con/ecouteur">
+                                                <li><table><tr><td><img src="/ecouteur.jpg" /></td><td>Ecouteurs</td></tr></table></li></a>
+                                                <a href="/con/hautparleur">
+                                                <li><table><tr><td><img src="/hautparleur.jpg" /></td><td>Haut parleur</td></tr></table></li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table style="width: 100%;" align="center">
+                            <tr>
+                                <td style="width: 30%;"></td>
+                                <td style="height: 82%; vertical-align: top; text-align: left;">
+                                    <div class="container">
+                                        <div class="scrollable-content">
+                                            <br><br>
+                                                <p style="width: 60%; color: black; text-align: center; font-family: Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1.6; padding: 10px 20px;">
+                                                    Hi Tech est reconnu comme le spécialiste de la vente en ligne en Tunisie, se distinguant par sa localisation stratégique et son engagement envers l'excellence. Nous offrons le plus grand choix de produits et des prix parmi les plus compétitifs du marché tunisien. Grâce à des partenariats solides avec les marques les plus prestigieuses, nous avons gagné leur entière confiance.
+
+                                                    En outre, Hi Tech détient des contrats de Retailer HP, équivalents à ceux de la grande distribution comme Carrefour et Géant, ainsi que des accords de partenariat avec des leaders mondiaux tels que Dell, en tant que Partner Registered Dell, Asus en tant que Gold Partner, et Lenovo également en tant que Gold Partner.
+
+                                                    Notre engagement va au-delà de la simple vente de produits. Nous nous efforçons constamment de fournir à nos clients le meilleur service possible, en offrant des conseils d'experts et en assurant une expérience d'achat exceptionnelle. La satisfaction de nos clients est notre priorité, et nous mettons tout en œuvre pour répondre à leurs besoins de manière efficace et professionnelle. Grâce à notre expertise et à notre engagement envers la qualité, Hi Tech s'est forgé une réputation solide sur le marché tunisien et continue d'évoluer pour mieux servir ses clients.
+                                                </p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

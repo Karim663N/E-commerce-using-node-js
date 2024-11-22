@@ -1,0 +1,157 @@
+{{#if useradmin}}
+<html>
+<head>
+    <title>Hi-Tech-DATABASE</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="margin: 0; height: 100vh;">
+    <table class="admintable" width="100%" height="100%">
+        <tr>
+            <td style="border: 1px solid black; height: 8%; width: 100%; background-color: black; text-align: center;">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 5%;"></td>
+                        <td style="width: 10%;"><p style="color: white; font-family: sans-serif;">Produits</p></td>
+                        <td style="width: 85%;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: auto; text-align: center; width: 100%;">
+                <table style="width: 100%; height: 100%; vertical-align: center; text-align: center;">
+                    <tr>
+                        <td style="width: 15%;">
+                            <table style="background-color: dimgray; width: 100%; height: 100%; text-align: center; color: aliceblue; border: 1px black;">
+                                <tr>
+                                    <a href="database">
+                                    <td><a href="database">Dashboard</a></td></a>
+                                </tr>
+                                <tr>
+                                    <td><a href="admincategorie">Categorie</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: black;"><a href="adminproducts">Produits</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="adminmembres">Membres</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="admincommandes">Commandes</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="admindisconnect">D&eacute;connexion</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <div class="containertransparent">
+                                <div class="scrollable-content">
+                                    <br /><br />
+                                    <table style="width: 100%; height: 25%; border-collapse: separate; border-spacing: 15px; padding: 5px 5px; text-align: center;">
+                                        <tr>
+                                            <form method="get" action="editproduitinfo">
+                                            <td style="width: 50%;">
+                                                <table style="width:100%; height:100%; padding: 10px; margin: 10px; border-collapse: collapse; border-radius: 10px; overflow: hidden; background-color: white;">
+                                                    <tr>
+                                                        <td>
+                                                            <table>
+                                                                <tr>
+                                                                    <td><h2><br />id :</h2></td>
+                                                                    <td><h2>{{produit.id}}<input type="hidden" name="id" value="{{produit.id}}" /></h2></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Reference :</h2></td>
+                                                                    <td><input class="login" type="text" name="reference" placeholder="{{produit.reference}}" value="{{produit.reference}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Modele :</h2></td>
+                                                                    <td><input class="login" type="text" name="model" placeholder="{{produit.model}}" value="{{produit.model}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Description :</h2></td>
+                                                                    <td><textarea class="textfield" name="description" placeholder="{{produit.description}}" rows="4">{{produit.description}}</textarea></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Quantite :</h2></td>
+                                                                    <td><input class="login" type="text" name="quantite" placeholder="{{produit.quantite}}" value="{{produit.quantite}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Prix :</h2></td>
+                                                                    <td><input class="login" type="text" name="prix" placeholder="{{produit.prix}}" value="{{produit.prix}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Promotion :</h2></td>
+                                                                    <td><input class="login" type="text" name="promotion" placeholder="{{produit.promotion}}" value="{{produit.promotion}}" /></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="text-align:center;">
+                                                            <input class="bluebtn" type="submit" value="Changer" />
+
+                                                            <br /><br />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                            <td style="width: 50%;">
+                                                <table style="width:100%; height:100%; padding: 10px; margin: 10px; border-collapse: collapse; border-radius: 10px; overflow: hidden; background-color: white;">
+                                                    <tr>
+                                                        <td>
+                                                            <table>
+                                                                <tr>
+                                                                    <td style="text-align: center;" colspan="2"><h1>Sp&eacute;cification</h1><br /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Taille de l'&eacute;cran :</h2></td>
+                                                                    <td><input class="login" type="text" name="tailleEcran" placeholder="{{produit.tailleEcran}}" value="{{produit.tailleEcran}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Ecran :</h2></td>
+                                                                    <td><input class="login" type="text" name="ecran" placeholder="{{produit.ecran}}" value="{{produit.ecran}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Memoire :</h2></td>
+                                                                    <td><input class="login" type="text" name="ram" placeholder="{{produit.ram}}" value="{{produit.ram}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Stockage :</h2></td>
+                                                                    <td><input class="login" type="text" name="stockage" placeholder="{{produit.stockage}}" value="{{produit.stockage}}"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Processeur :</h2></td>
+                                                                    <td><input class="login" type="text" name="cpu" placeholder="{{produit.cpu}}" value="{{produit.cpu}}" /></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h2>Carte graphique :</h2></td>
+                                                                    <td><input class="login" type="text" name="gpu" placeholder="{{produit.gpu}}" value="{{produit.gpu}}" /></td>
+                                                                </tr>
+                                                            </table>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            
+                                            </form>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+{{else}}
+<script>
+        // Redirect to another page
+        window.location.href = '/con/adminlogin';
+</script>
+{{/if}}

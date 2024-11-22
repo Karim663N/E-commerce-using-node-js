@@ -1,0 +1,109 @@
+{{#if adminon}}
+<html>
+<head>
+    <title>Hi-Tech-DATABASE</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="margin: 0; height: 100vh;">
+    <table class="admintable" width="100%" height="100%" style="border: 1px solid black;">
+        <tr>
+            <td style="border: 1px solid black; height: 8%; width: 100%; background-color: darkred;">
+                <table style="border: 1px solid black;">
+                    <tr>
+                        <td style="width: 10%;"><img src="/topbarlogo.png" alt="Top Bar Logo" style="width: 100%; height: 100%;" /></td>
+                        <td style="width: 20%;"><b style="font-family: sans-serif; color: white;">Menu Adminisrateur</b></td>
+                        <td style="border: 1px solid black; width: 30%;">
+                            <input class="search" type="text" name="search" max="100" placeholder="Rechercher">
+                        </td>
+                        <td style="border: 1px solid black; width: 10%;">
+                            <input class="okbtn" type="image" src="/search.png" alt="Logo" />
+                        </td>
+                        <td style="width: 8%;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                        <td style="width: 18%;">
+                            <div class="menu-container">
+                                <button class="menu-button"><b style="color: white;">bienvenue {{user.nom}} {{user.prenom}}</b></button>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="disconnect">Se d&eacute;connecter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width: 8%;">
+                            <a href="/con/adminretour" class="a">Retour</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: auto; text-align: center; width: 100%;">
+                <div class="containertransparent">
+                    <div class="scrollable-content">
+                        <br><br><br><br><br><br><br><br>
+                        <table style="width: 100%; height: 40%; vertical-align: center; text-align: center;" border=1px solid black>
+                            <tr>
+                                <td style="width: 5%;"></td>
+                                <th style="width: 90%;">
+                                    <table class="produitstable">
+                                        <thead>
+                                            <tr>
+                                                <th>Cat&eacute;gorie</th>
+                                                <th>Reference</th>
+                                                <th>Marque</th>
+                                                <th>Model</th>
+                                                <th>Description</th>
+                                                <th>Quantit&eacute;</th>
+                                                <th>Prix</th>
+                                                <th><b style="color: dodgerblue;">{{message}}</b></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <form method="POST" action="/con/ajoutproduit">
+                                                <td>
+                                                    <select id="categorie" name="categorie">
+                                                        <option value="laptop">Pc portable</option>
+                                                        <option value="desktop">Pc de bureau</option>
+                                                        <option value="accessoirespourtv">Accessoires pour TV</option>
+                                                        <option value="android">Smartphone Android </option>
+                                                        <option value="bracelet">Bracelet pour montre</option>
+                                                        <option value="ecouteur">Ecouteurs</option>
+                                                        <option value="hautparleur">Haut parleur</option>
+                                                        <option value="ios">Iphone</option>
+                                                        <option value="montre">Montres</option>
+                                                        <option value="tv">TV</option>
+                                                        <option value="ecran">Ecran</option>
+                                                    </select>
+                                                </td>
+                                                <td><input class="input" type="text" id="reference" name="reference" required></td>
+                                                <td><input class="input" type="text" id="marque" name="marque" required></td>
+                                                <td><input class="input" type="text" id="model" name="model" required></td>
+                                                <td><input class="input" type="text" id="description" name="description" required></td>
+                                                <td><input class="input" type="number" id="quantite" name="quantite" required></td>
+                                                <td><input class="input" type="number" id="prix" name="prix" required></td>
+                                                <td><input class="bluebtn" type="submit" value="Ajouter"></td>
+                                                </form>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+            </td>
+            <td style="width: 5%;"></td>
+        </tr>
+    </table>
+    </div>
+    </div>
+    </td>
+    </tr>
+    </table>
+</body>
+</html>
+{{else}}
+<script>
+        // Redirect to another page
+        window.location.href = '/';
+</script>
+{{/if}}

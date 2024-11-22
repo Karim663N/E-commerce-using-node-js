@@ -1,0 +1,51 @@
+
+<html>
+<head>
+    <title>connexion</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body style="margin: 0; height: 100vh;">
+    <table width="100%" height="100%" style="border: 1px solid black;">
+        <tr>
+            <td style="height: 82%; vertical-align: top; text-align: left;">
+                <div class="container">
+                    <div class="scrollable-content">
+                        <br>
+                        <table style="width: 100%;" align="center">
+                            <tr>
+                                <td style="width: 100%; text-align: center;">
+                                    <br><br><br><br><br><br>
+                                    <table style="width: 100%; text-align: center;">
+                                        <tr>
+                                            <td style="width: 30%;">
+                                                <br><br><br><br>
+                                            </td>
+                                            <td class="miniwindow" style="width: 40%;">
+                                                <br><br>
+                                                    <form method="POST" action="/con/connexionadmin">
+                                                        <label for="username">Num&eacute;ro de carte</label><br>
+                                                        <input class="login" type="text" id="numcarte" name="numcarte" placeholder="Entrer le numero de la carte" required><br><br>
+                                                        <label for="username">Code de securit&eacute;</label><br>
+                                                        <input class="login" type="text" id="codesecurite" name="codesecurite" placeholder="Entrer le code de securit&eacute;" required><br><br>
+                                                        <label for="username">Entrer le titulaire</label><br>
+                                                        <input class="login" type="text" id="titulaire" name="titulaire" placeholder="Titulaire" required><br><br>
+                                                        <input class="loginbtn" type="submit" value="Suivant"><br><br>
+                                                    </form>
+                                            </td>
+                                            <td style="width: 30%;">
+                                                <br><br><br><br>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

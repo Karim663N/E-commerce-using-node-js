@@ -1,0 +1,116 @@
+
+<html>
+<head>
+    <title>connexion</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body style="margin: 0; height: 100vh;">
+    <table width="100%" height="100%" style="border: 1px solid black;">
+        <tr>
+            <td style="height: 82%; vertical-align: top; text-align: left;">
+                <div class="container">
+                    <div class="scrollable-content">
+                        <br>
+                        <table style="width: 100%;" align="center">
+                            <tr>
+                                <td style="width: 100%; text-align: center;">
+                                    <br><br><br><br><br><br>
+                                    <table style="width: 100%; text-align: center;">
+                                        <tr>
+                                            <td style="width: 70%;">
+                                                <br />
+                                                <table class="produitslist">
+                                                    <tr>
+                                                        <td style="width: 20%;">
+                                                            <h3>Nom: {{client.nom}}</h3>
+                                                            <h3>Prenom: {{client.prenom}}</h3>
+                                                            <h3>Numero du telephone: {{client.tel}}</h3>
+                                                            <h3>Telephone: {{client.tel}}</h3>
+                                                            <h3>Adresse: {{client.adresse}}</h3>
+                                                        </td>
+                                                        <td style="width: 30%;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" style="text-align: center;"> <h3><u>Numero de commande : {{idcommande}}</u></h3></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" style="text-align: center;"><div id="current-date"></div></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" style="text-align: center;">
+                                                            <table style="text-align: center; width:100%;" border="1px black">
+                                                                <tr>
+                                                                    <th>Quantite</th>
+                                                                    <th>Designation</th>
+                                                                    <th>Prix</th>
+                                                                    <th>Total</th>
+                                                                </tr>
+                                                                {{#each commandes}}
+                                                                <tr>
+                                                                    <td>{{this.quantite}}</td>
+                                                                    <td>{{this.nommarque}} {{this.model}}</td>
+                                                                    <td>{{this.prix}}</td>
+                                                                    <td>{{this.totalcl}}</td>
+                                                                </tr>
+                                                                {{/each}}
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td style="text-align: right;">Prix totale: {{totalprix}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td style="text-align: right;">
+                                                            Status:
+                                                            {{#if status}}
+                                                            {{else}}
+                                                            <p>En cours</p>
+                                                            {{/if}}
+                                                            <script>
+                                                                if ({{status}} === 1) {
+                                                                    document.write('<p style="color: green;">Valide</p>');
+                                                                } else if ({{status}} === 0) {
+                                                                    document.write('<p style="color: red;">Annule</p>');
+                                                                } else {
+                                                                    document.write('<p>En cours</p>');
+                                                                }
+                                                            </script>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script>
+        // Function to update the current date
+        function updateCurrentDate() {
+            // Get the current date
+            var currentDate = new Date();
+
+            // Format the date as desired (e.g., dd/mm/yyyy)
+            var formattedDate = currentDate.toLocaleDateString();
+
+            // Display the formatted date in the HTML element
+            document.getElementById("current-date").textContent = "Date: " + formattedDate;
+        }
+
+        // Call the function to update the current date initially
+        updateCurrentDate();
+
+        // Update the current date periodically (e.g., every second)
+        setInterval(updateCurrentDate, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+{{#if useradmin}}   
+        <html>
+            <head>
+                <title>Hi-Tech-DATABASE</title>
+                <link rel="stylesheet" href="/styles.css">
+            </head>
+            <body style="margin: 0; height: 100vh;">
+                <table class="admintable" width="100%" height="100%" >
+                    <tr>
+                        <td style="border: 1px solid black; height: 8%; width: 100%; background-color: black; text-align: center;">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 5%;"></td>
+                                    <td style="width: 10%;"><p style="color: white; font-family: sans-serif;">Inventaire</p></td>
+                                    <td style="width: 85%;"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 82%; vertical-align: auto; text-align: center; width: 100%;">
+                            <table style="width: 100%; height: 100%; vertical-align: center; text-align: center;">
+                                <tr>
+                                    <td style="width: 15%;">
+                                        <table style="background-color: dimgray; width: 100%; height: 100%; text-align: center; color: aliceblue; border: 1px black;">
+                                            <tr>
+                                                <a href="database"><td style="background-color: black;"><a href="database">Dashboard</a></td></a>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="admincategorie">Categorie</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="adminproducts">Produits</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="adminmembres">Membres</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="admincommandes">Commandes</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="admindisconnect">D&eacute;connexion</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <div class="containertransparent">
+                                            <div class="scrollable-content">
+                                                <br /><br />
+                                                <h1 style="color: black;">Dashboard</h1>
+                                                <table style="width: 100%; height: 25%; border-collapse: separate; border-spacing: 15px; padding: 5px 5px;">
+                                                    <tr>
+                                                        <td style="background-color: cornflowerblue; width: 33%;">
+                                                            <a href="admincategorie">
+                                                                <table style="width:100%; height:100%; text-align:center;">
+                                                                    <tr>
+                                                                        <td><h1>{{categoryCount}}</h1></td>
+                                                                        <td rowspan="2"><img src="/admincategorie.png" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h3>Total categorie</h3></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="2">Voir plus &#8594;</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                        <td style="background-color: yellow; width: 33%;">
+                                                            <a href="adminproducts">
+                                                                <table style="width:100%; height:100%; text-align:center;">
+                                                                    <tr>
+                                                                        <td><h1>{{productCount}}</h1></td>
+                                                                        <td rowspan="2"><img src="/adminproduct.png" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h3>Total produits</h3></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="2">Voir plus &#8594;</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                        <td style="background-color: darkorange; width: 33%;">
+                                                            <a href="admincommandes">
+                                                                <table style="width:100%; height:100%; text-align:center;">
+                                                                    <tr>
+                                                                        <td><h1>{{commandCount}}</h1></td>
+                                                                        <td rowspan="2"><img src="/adminorders.png" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h3>Commandes</h3></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="2">Voir plus &#8594;</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br />
+                                                <table style="width: 100%; height: 25%; border-collapse: separate; border-spacing: 15px; padding: 5px 5px;">
+                                                    <tr>
+                                                        <td style="background-color: hotpink; width: 33%;">
+                                                            <a href="adminmembres">
+                                                                <table style="width:100%; height:100%; text-align:center;">
+                                                                    <tr>
+                                                                        <td><h1>{{userCount}}</h1></td>
+                                                                        <td rowspan="2"><img src="/adminusers.png" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h3>Nombre des utilisateurs</h3></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="2">Voir plus &#8594;</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                        <td style="background-color: lightseagreen; width: 33%;">
+                                                            <a href="admincommandesacceptee">
+                                                                <table style="width:100%; height:100%; text-align:center;">
+                                                                    <tr>
+                                                                        <td><h1>{{commandepayecount}}</h1></td>
+                                                                        <td rowspan="2"><img src="/adminverified.png" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h3>Commandes accept&eacute;e</h3></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="2">Voir plus &#8594;</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                        <td style="background-color: lightcoral; width: 33%;">
+                                                            <a href="admincommandesEncours">
+                                                                <table style="width:100%; height:100%; text-align:center;">
+                                                                    <tr>
+                                                                        <td><h1>{{commandenonpayecount}}</h1></td>
+                                                                        <td rowspan="2"><img src="/adminnonverified.png" /></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><h3>Commandes demand&eacute;es</h3></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="2">Voir plus &#8594;</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>    
+                        </td>
+                    </tr>
+                </table>
+            </body>
+        </html>
+{{else}}
+    <script>
+        // Redirect to another page
+        window.location.href = '/con/adminlogin';
+    </script>
+{{/if}}

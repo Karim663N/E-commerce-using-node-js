@@ -1,0 +1,132 @@
+{{#if useradmin}}
+<html>
+<head>
+    <title>Hi-Tech-DATABASE</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="margin: 0; height: 100vh;">
+    <table class="admintable" width="100%" height="100%">
+        <tr>
+            <td style="border: 1px solid black; height: 8%; width: 100%; background-color: black; text-align: center;">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 5%;"></td>
+                        <td style="width: 10%;"><p style="color: white; font-family: sans-serif;">Produits</p></td>
+                        <td style="width: 85%;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 82%; vertical-align: auto; text-align: center; width: 100%;">
+                <table style="width: 100%; height: 100%; vertical-align: center; text-align: center;">
+                    <tr>
+                        <td style="width: 15%;">
+                            <table style="background-color: dimgray; width: 100%; height: 100%; text-align: center; color: aliceblue; border: 1px black;">
+                                <tr>
+                                    <a href="database">
+                                    <td><a href="database">Dashboard</a></td></a>
+                                </tr>
+                                <tr>
+                                    <td><a href="admincategorie">Categorie</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: black;"><a href="adminproducts">Produits</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="adminmembres">Membres</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="admincommandes">Commandes</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="admindisconnect">D&eacute;connexion</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <div class="containertransparent">
+                                <div class="scrollable-content">
+                                    <br /><br />
+                                    <table style="width: 100%; height: 25%; border-collapse: separate; border-spacing: 15px; padding: 5px 5px; text-align: center;">
+                                        <tr>
+                                            <td>
+                                                <h1 style="color: black;">Produits</h1>
+                                                <table style="width:100%; text-align: center;">
+                                                    <tr>
+                                                        <td style="width: 30%;"></td>
+                                                        <td style="width: 30%;">
+                                                            <form method="get" action="/con/adminproductsearch">
+                                                                <br /><input class="search" type="text" name="search" max="100" placeholder="Modele/Reference">
+                                                        </td>
+                                                        <td style="width: 10%; text-align: left;">
+                                                            <input class="okbtn" type="image" src="/search.png" alt="Logo" />
+                                                            </form>
+                                                        </td>
+                                                        <td style="width: 30%;">
+                                                            <div class="menu-container">
+                                                                <button class="menu-button"><b style="color: black;" class="okbtn">Ajouter un produit</b></button>
+                                                                <div class="menu">
+                                                                    <ul>
+                                                                        <li><table><tr><td><a href="/con/adminaddproductinfo">pc portable/smartphone</a></td></tr></table></li>
+                                                                        <li><table><tr><td><a href="/con/adminaddproductecran">ecran/tv</a></td></tr></table></li>
+                                                                        <li><table><tr><td><a href="/con/adminaddproduct">autre</a></td></tr></table></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table class="databaselist">
+                                                    <tr>
+                                                        <th><b>id</b></th>
+                                                        <th><b>reference</b></th>
+                                                        <th><b>model</b></th>
+                                                        <th><b>description</b></th>
+                                                        <th><b>quantite</b></th>
+                                                        <th><b>prix</b></th>
+                                                        <th></th>
+                                                        <th></th>
+                                                    </tr>
+                                                    {{#each produits}}
+                                                    <tr>
+                                                        <td>{{this.id}}</td>
+                                                        <td>{{this.reference}}</td>
+                                                        <td>{{this.model}}</td>
+                                                        <td>{{this.description}}</td>
+                                                        <td>{{this.quantite}}</td>
+                                                        <td>{{this.prix}}</td>
+                                                        <td>
+                                                            <form method="get" action="editproduitform">
+                                                                <input type="hidden" name="id" value="{{this.id}}" />
+                                                                <input class="bluebtn" type="submit" value="changer" />
+                                                            </form>
+                                                        </td>
+                                                        <td>
+                                                            <form method="get" action="deleteproduit">
+                                                                <input type="hidden" name="id" value="{{this.id}}" />
+                                                                <input class="bluebtn" type="submit" value="supprimer" />
+                                                            </form>
+                                                        </td>
+                                                    </tr>
+                                                    {{/each}}
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+{{else}}
+<script>
+        // Redirect to another page
+        window.location.href = '/con/adminlogin';
+</script>
+{{/if}}
