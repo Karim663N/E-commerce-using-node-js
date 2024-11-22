@@ -92,14 +92,14 @@ exports.motdepasseoubliee = (req, res) => {
             let transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'karim.nafti.10@gmail.com',
-                    pass: 'epnd lhdx oawg wplr' // Use the App Password generated in Step 1
+                    user: 'master.email',
+                    pass: 'master.password' // Use the App Password generated in Step 1
                 }
             });
 
             // Mail options
             const mailOptions = {
-                from: 'karim.nafti.10@gmail.com',
+                from: 'master.email',
                 to: email,
                 subject: 'Password Reset',
                 text: `You requested a password reset. Click the link to reset your password: http://localhost:8000/restaurermotdepasse?token=${token}&clientId=${clientId}`,
