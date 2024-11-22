@@ -1,8 +1,10 @@
-setup : 
+setup exemple: 
 mkdir my-node-project
 cd my-node-project
 npm init -y
 touch index.js
+
+dependencies :
 npm install express
 
 start project : 
